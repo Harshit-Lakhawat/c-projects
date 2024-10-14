@@ -42,6 +42,7 @@ int main() {
 }
 
 void drawboard(char *spaces) {
+  cout<<'\n';
   cout << "      |      |    " << '\n';
   cout << " " << spaces[0] << "    | " << spaces[1] << "    |  " << spaces[2]
        << "  " << '\n';
@@ -54,6 +55,7 @@ void drawboard(char *spaces) {
   cout << " " << spaces[6] << "    | " << spaces[7] << "    |  " << spaces[8]
        << "  " << '\n';
   cout << "      |      |      " << '\n';
+  cout<<'\n';
 }
 void playermove(char *spaces, char player) {
   int number;
